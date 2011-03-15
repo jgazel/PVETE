@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,french]{article}
+\documentclass[a4paper,11pt,french]{report}
  \usepackage[utf8]{inputenc} %latin9 ou1
  \usepackage[T1]{fontenc}
  \usepackage[normalem]{ulem}
@@ -400,6 +400,12 @@ Je remercie les enseignants d'avoir participé à ce questionnaire en consacrant
 
 \newpage
 \part{Pour aller plus loin...}
+Dans la précédente partie, nous avons mis en évidence la situation actuelle à l'\'Ecole Centrale de Nantes, notamment au travers de deux sondages; l'un destiné aux élèves, l'autre aux professeurs.\\
+Cette étude inédite est un premier pas dans l'appréhension des habitudes des utilsateurs informatiques au sein de l'\'Ecole, et peut permettre une anticipation des modifications de la plateforme acutelle.\\
+Bien que les besoins ne soient pas strictement similaire, on peut dégager une même tendance : un besoin croissant en capacité de calcul et en autonomie, pour des ordinateurs qui sont de plus en plus sollicités.\\
+
+Au vu de cette situation, nous pouvons proposer aux lecteurs désireux de participer au grand élan de l'informatique verte quelques conseils, présentés dans les prochaines sections.
+
 \section{Calcul générique sur un processeur graphique}
 \subsection{Généralisation des solutions de calculs basées sur les processeurs graphiques}
 Comme l’a encore montré le dernier classement\footnote{\textsf{http://www.top500.org/list/2010/11/100}} des plus puissants supercalculateurs, la demande croissante en calcul nécessite de trouver de nouvelles solutions. Depuis quelques années, l’utilisation de GPU\footnote{\textsf{http://fr.wikipedia.org/wiki/Processeur\_{}graphique}} s’est généralisée : 3 des 5 premiers utilisent des solutions basées sur des GPU Nvidia. Ceci s’explique principalement par la très forte parallélisation des calculs, rendue possible grâce aux nombreux cœurs. Il s’agit d’une situation de co-traitement : les parties séquentielles sont traitées par les CPU tandis que les parties demandant le plus de calculs sont traitées par le GPU, cela s’appelle le GPGPU\footnote{\textsf{http://fr.wikipedia.org/wiki/General-Purpose\_{}Processing\_{}on\_{}Graphics\_{}Processing\_{}Units}} (General-Purpose Processings on Graphic Units).\\
@@ -481,7 +487,7 @@ En faisant le test pour mon ordinateur, je m'aperçois que mon ordinateur me co�
 
 Faites le test!
 
-\subsubsection{Eteindre son ordinateur est primordial}
+\subsubsection{\'Eteindre son ordinateur est primordial}
 Tout le monde sait bien qu'il faut éteindre son ordinateur lorsque nous ne l'utilisons pas, ou bien le mettre en veille dans le cas si on doit l'utiliser plusieurs fois dans une même journée.\\
 Il est important de préciser qu'\textbf{éteindre son ordinateur n'endommage pas le système}, bien au contraire ! D'après ETCY, la défaillance du disque dur est attribuable à la fatigue du bras de lecture provoquée par les lectures et les écritures répétées et non pas aux démarrages. Si l'on se fie aux spécifications des fabricants, les disques durs actuels peuvent démarrer de 10 000 à 50 000 fois avant que des problèmes ne surviennent. Or, si l'on met l'ordinateur en marche cinq fois par semaine, le dix millième démarrage ne surviendra qu'après 38 ans! Votre appareil sera alors désuet depuis belle lurette. De plus, comme la durée de vie moyenne d'un disque dur est de 25000 heures, éteindre l'ordinateur permet de le garder plus longtemps, lui aussi.\\
 
@@ -529,5 +535,26 @@ En plus de configurer correctement son ordinateur pour économiser de l'énergie
 
 Vous l'aurez compris, l'idée est simple : tout appareil en veille consomme de l'énergie! Eteignez-les si vous ne les utilisez pas!
 En espérant que ces conseils vous auront été utiles !
+
+
+\begin{thebibliography}{GMS93} %% GMS93 is the longest label.
+\bibitem[Bob04]{bob} {Jean-Louis Bobin, \emph{Quelle est la vraie vitesse de la lumire ?}, Les Petites pommes du savoir, 2004\\}
+
+\bibitem[Cha07]{cha} {Andr Chappert, \emph{Histoire de l'optique ondulatoire : de Fresnel  Maxwell}, Collection Belin Sup . Histoire des sciences - Physique, 2007\\}
+
+\bibitem[Fel28]{fel} {Pierre de Flice, \emph{Histoire de l'optique}, Acteurs de la science, 1928\\}
+
+\bibitem[Hal20]{hal} {Alfred Upert Hall},\emph{All was light : an introduction to Newton's Opticks},Oxford University Press,1920 
+
+\bibitem[Mai81]{lum} {Bernard Maitte, \emph{La Lumire}, Points , 1981 \\}
+
+\bibitem[Ort04]{cant} {Sven Ortoli et Jean-Pierre Pharabod, \emph{Le Cantique des quantiques}, Collection Essais, Editions La Dcouverte ,2004\\}
+
+\bibitem[Ron]{ron} {Vasco Ronchi, \emph{Histoire de la lumire}, J. Gabay \\}
+
+\bibitem[Ros04]{rev} {Jean Rosmorduc}, \emph{Les rvolutions de l'optique et l'oeuvre de Fresnel}, Inflexions, 2004 \\
+
+\bibitem[Zup09]{traite} {Libero Zuppiroli et Marie-Nolle Bussac  avec les photographies de Christiane Grimm}, \emph{Trait de la Lumire}, Presses Polytechniques et Universitaires Romandes, 2009.\\
+\end{thebibliography}
 
 \end{document}
